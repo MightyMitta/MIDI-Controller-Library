@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Actions\Action.cs" />
+    <Compile Remove="Actions\Actions.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Actions\ConsoleAction" />
+    <None Remove="Actions\NewFile1.txt" />
+    <None Remove="Events\MidiButtonPressedEventArgs" />
+    <None Remove="Events\NewFile1.txt" />
+    <None Remove="MidiButtonListener" />
+    <None Remove="NewFile1.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Sanford.Multimedia.Midi">
+      <HintPath>..\libs\Sanford.Multimedia.Midi.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

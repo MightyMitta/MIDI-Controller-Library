@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Launchpad-App", "Launchpad-App\Launchpad-App.csproj", "{A2808D10-AFA0-42F3-9DD1-2CC0CF1C095A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MidiEventHandler", "MidiEventHandler\MidiEventHandler.csproj", "{5177FEBC-4C85-4772-B436-C8FC70F1BBE5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A2808D10-AFA0-42F3-9DD1-2CC0CF1C095A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2808D10-AFA0-42F3-9DD1-2CC0CF1C095A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2808D10-AFA0-42F3-9DD1-2CC0CF1C095A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2808D10-AFA0-42F3-9DD1-2CC0CF1C095A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5177FEBC-4C85-4772-B436-C8FC70F1BBE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5177FEBC-4C85-4772-B436-C8FC70F1BBE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5177FEBC-4C85-4772-B436-C8FC70F1BBE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5177FEBC-4C85-4772-B436-C8FC70F1BBE5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B897839B-4DAE-44A3-82F3-5D95CF716A4E}
+	EndGlobalSection
+EndGlobal
